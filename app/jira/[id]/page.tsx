@@ -7,6 +7,7 @@ export default async function Page({params}:any) {
     const user = await getUser(params.id)
   return (
     <div style={{backgroundColor: 'lightsteelblue', padding: '10rem'}}>
+      <h4>Implemented POC topic - Dynamic Rendering with Dynamic Routing</h4>
     <h3>{user.username}</h3>
     <h4>{user.name}</h4>
     <p>{user.email}</p>

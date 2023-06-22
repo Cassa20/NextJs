@@ -11,10 +11,10 @@ export default async function JiraLayout({
 }: {
   children: React.ReactNode
 }) {
-
     const posts = await getPosts()
   return (
 <>
+<h3>Implemented POC topic - Nested Layouts with Nested Rendering by data fetching</h3>
 <div style={{display: 'flex'}}>
     <div style={{display: 'flex', flexDirection: 'column', width: '20%'}}>
     {posts.map((d:any,i:any) => {

@@ -12,6 +12,7 @@ export default function DashboardLayout({
   return (
     <>
     <div style={{display: 'flex', flexDirection: 'column'}}>
+      <h3>Implemented POC topic - Parallel Routing in NextJs</h3>
         <div style={{backgroundColor: 'lightsalmon', padding: '8rem'}}>{children}</div>
         <div style={{display: 'flex', justifyContent: 'space-between'}}>
             <div style={{backgroundColor: 'lightskyblue', padding: '12rem'}}>{city}</div>

@@ -8,7 +8,8 @@ export default function SharedLayout({
         <header>
           <h2>This is Header Section !</h2>
         </header>
-        <div style={{backgroundColor: 'lightseagreen'}}>
+        <h3>Implemented POC topic - MultiLayout in NextJs</h3>
+        <div style={{backgroundColor: 'lightskyblue'}}>
           {children}
         </div>
         <footer>
